@@ -2,7 +2,7 @@ const sequelize=require('sequelize');
 const db=require('../config/database');
 const Category=db.define('categories',{
     name:{
-        type:sequelize.SRING
+        type:sequelize.STRING
     },
     picture:{
         type:sequelize.STRING
