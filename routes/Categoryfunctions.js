@@ -18,7 +18,7 @@ const upload=multer({storage:storage});
 router.post('/create',upload.single('photo'),async(req,res)=>{
     const {name}=req.body;
     const picture=await cloudinary.v2.uploader.upload(req.file.path);
-    
+    console.log(req.file.path);
     Category.create({
         name:name,
         picture:picture.url
