@@ -4,7 +4,8 @@
   "description": "api for vayu",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sart":"node server.js"
   },
   "author": "atul",
   "license": "ISC",
