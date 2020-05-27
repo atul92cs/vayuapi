@@ -11,3 +11,25 @@
 </div>
 </form>
 </div>
+<div class="table-section">
+    <table class="table table-hover text-center">
+      <thead>
+          <tr>
+              <th scope="col">Id</th>
+              <th scope="col">Name</th>
+              <th scope="col">Picture</th>
+              <th scope="col">Action</th>
+          </tr>
+      </thead>
+      <tbody>
+            {{#each categories}}
+            <tr>
+                <th scope="row">{{this.id}}</th>
+                <td>{{this.name}}</td>
+                <td><img src="{{this.picture}}" alt=""></td>
+                <td><button type="submit" class="btn btn-primary">Edit</button> &nbsp; <button type="submit" class="btn btn-danger">Delete</button></td>
+            </tr>
+            {{/each}}
+      </tbody>
+    </table>
+</div>

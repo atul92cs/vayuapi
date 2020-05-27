@@ -1,6 +1,17 @@
 .form-section 
 {
-    margin-top: 5vh;
-    margin-right: 4vw;
-    margin-left: 4vw;
+    margin-top: 15vh;
+    margin-right: 40vw;
+    margin-left: 40vw;
+    margin-bottom: 15vh;
+}
+.table-section 
+{
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+.table-section img 
+{
+    height: 30vh;
+    width: 25vw;
 }
